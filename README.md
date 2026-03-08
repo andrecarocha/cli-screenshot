@@ -35,11 +35,11 @@ pip3 install pyobjc-framework-Cocoa
 ### Auto-start on login (LaunchAgent)
 ```bash
 # Install
-cp com.nuvemshop.screenshot.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/com.nuvemshop.screenshot.plist
+cp com.andrecarocha.screenshot.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.andrecarocha.screenshot.plist
 
 # Stop
-launchctl unload ~/Library/LaunchAgents/com.nuvemshop.screenshot.plist
+launchctl unload ~/Library/LaunchAgents/com.andrecarocha.screenshot.plist
 ```
 
 > **Note:** Edit the Python path in `run.sh` and the `.plist` file if your `python3` is not at `/usr/local/bin/python3`.
